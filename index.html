@@ -145,14 +145,25 @@
                     <ion-icon id="f3-c2" class="check" name="checkmark-circle"></ion-icon>
                 </div>
 
-
+                <div data-test="dish" class="opcao dindin" onclick="terceiraescolha('.dindin','#f3-c3')">
+                    <div class="figura">
+                        <img src="imagens/dindin.jpg" alt="Dindin">
+                    </div>
+                    <div data-test="nome-do-item" class="nome-da-comida">Dindin</div>
+                    <div class="descricao">
+                        Chocolate, brigadeiro, laranja, uva, maracujá e leite ninho
+                    </div>
+                    <div data-test="preco-do-item" class="preco">R$ 5,99</div>
+                    <div class="preco-numerico"> 5.99</div>
+                    <ion-icon id="f3-c3" class="check" name="checkmark-circle"></ion-icon>
+                </div>
             </div>
         </section>
-
     </main>
 
     <footer>
-
+        <button class="botao-footer" data-test="order-btn" onclick="confirmarpedido()" disabled>Selecione os 3 itens
+            <br>para fechar o pedido</button>
     </footer>
 
 
