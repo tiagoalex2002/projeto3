@@ -55,6 +55,70 @@ header {
     color: #333333;
 }
 
+.desabilitar-scrollbars::-webkit-scrollbar {
+    background: transparent;
+    /* Chrome/Safari/Webkit */
+    width: 0px;
+}
+
+.desabilitar-scrollbars {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE 10+ */
+}
+
+.scroll {
+    margin-top: 17px;
+    overflow: scroll;
+    height: 235px;
+    width: 100%;
+    display: flex;
+}
+
+.figura {
+    width: 100%;
+
+}
+
+.figura img {
+    height: 87px;
+    width: 144px;
+    margin-left: 9px;
+    margin-top: 13px;
+    border-radius: 4px;
+}
+
+.nome-da-comida {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #333333;
+}
+
+.descricao {
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 4px;
+    margin-left: 10px;
+    color: #A6A6A6;
+}
+
+.preco {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #000000;
+}
+
 footer {
     height: 92px;
     width: 100%;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,19 @@
     <main>
         <section class="comida">
             <div class="titulo"> Primeiro, o seu prato</div>
+            <div class="scroll desabilitar-scrollbars">
+                <div data-test="dish" class="opcao frango" onclick="selecionaUM('.frango','#f1-c1')">
+                    <div class="figura">
+                        <img src="imagens/frango_yin_yang.png" alt="frango_yin_yang">
+                    </div>
+                    <div data-test="nome-do-item" class="nome-da-comida">Frango Yin Yang</div>
+                    <div class="descricao">
+                        Um pouco de batata, um pouco de salada
+                    </div>
+                    <div data-test="preco-do-item" class="preco">R$ 14,90</div>
+                    <ion-icon id="f1-c1" class="check" name="checkmark-circle"></ion-icon>
+                </div>
+            </div>
         </section>
 
         <section class="bebida">
